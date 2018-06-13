@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <title>Chat IO</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+</head>
+<div class="container clearfix" style="width: 100%; height: 100vh" >
+        <div class="login-page">
+        <div class="form">
+
+            <div class="form-line"></div>
+
+            <div style="margin-top: 18px;">
+
+                <form action="/profile" class="profile-form" method="post">
+                
+                    
+                        
+                        <ul2>
+                                <% user.likes.forEach(function(like) { %>
+                                    <li2><%= like %> <span class="close">&times;</span>
+                                    </li2>
+                                <% }); %>
+                        </ul2>
+                        <input type="text" name="newLikes" />
+                        <button type="submit">Add Likes</button>
+                        <p class="message">Happy with your profile?
+                                <a href="/">Go back</a>
+                    </form>
+
+            </div>
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/main.js"></script>
+        <script>$(function () { app.profile() });</script>

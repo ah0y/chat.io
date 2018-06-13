@@ -1,0 +1,9 @@
+# Node Dependencies
+node_modules
+
+# Logs
+debug.log
+
+
+app/config/
+app/database/index.js

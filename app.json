@@ -1,0 +1,5 @@
+{
+  "name": "chat.io",
+  "description": "A Real Time Chat Application built using Node.js, Express, Mongoose, Socket.io, Passport, & Redis.",
+  "keywords": ["real-time", "chat", "nodejs", "express", "mongoose", "socketio", "passport", "redis"]
+}
