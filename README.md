@@ -6,10 +6,10 @@ A Real Time Chat Application built using Node.js, Express, Mongoose, Socket.io, 
 
 
 ## Demo
-Check out the [demo] (https://agile-taiga-95812.herokuapp.com) on Heroku! 
+Check out the [demo](https://agile-taiga-95812.herokuapp.com) on Heroku! 
 
 ## Added Features
-+ Uses the HTML5 Geolocation API to ask a User for permission to access their location and persist it to a MongoDB as `location`
++ Uses the HTML5 Geolocation API to ask a User for permission to access their location and persist it to a MongoDB under the field `location`
 + Added a `/profile/` route and functionality for a User to add `likes` to their profile
 + Made the landing route after authenticating, `/rooms/`, only show all online Users within a 10 mile radius that also have at least one mutual like
 +  Added a `/friends/` route and the ability for a User to send friend requests to other Users
@@ -20,12 +20,12 @@ Check out the [demo] (https://agile-taiga-95812.herokuapp.com) on Heroku!
 
 ![Screenshot](https://imgur.com/W7DJ3RG.png)
  
-**Other User only viewable after adding the like "umbrella" **
+**Note:** The other User, testuser2, is ***only*** viewable after adding the mutual like 'umbrella' to their profile
 
 ![Screenshot](https://imgur.com/CJgbLz9.png)
 
-
 ![Screenshot](https://imgur.com/pATCVrl.png)
+
 ![Screenshot](https://imgur.com/Cm4nZJw.png)
 
 ## Installation
