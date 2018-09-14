@@ -1,8 +1,11 @@
-![Screenshot](https://imgur.com/1TM9Jnd.png)
+
 
 # chat.io
 
-A Real Time Chat Application built using Node.js, Express, Mongoose, Socket.io, Passport, & Redis. Forked from OmarElGabry's [chat.io](https://github.com/OmarElGabry/chat.io).
+
+A Real Time Chat Application built using Node.js, Express, Mongoose, Socket.io, Passport, & Redis. Forked from OmarElGabry's [chat.io](https://github.com/OmarElGabry/chat.io). New features by Abe and Cheyenne 
+
+![Screenshot](https://imgur.com/1TM9Jnd.png)
 
 
 ## Demo
